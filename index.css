@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background: #161f3f
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0px;
+   
+   
+    
+}
+
+@font-face {
+    src: url("CursedTimerULiL.ttf");
+    font-family: timer;
+}
+
+.numbers {
+    font-family: timer;
+    color: #F94F6D;
+    font-size: 90px;
+    border: 20px solid black;
+    background: black;
+    border-radius: 5px;
+    margin-bottom: 26px;
+    margin-top: 21px;
+       
+}
+
+
+
+button {
+    background: #161f3f;
+    color: #9AABD8;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    margin-right: 9px;
+    margin-bottom: 69px;
+    margin-top: 0px;
+}
+
+button:hover {
+    color: white;
+    font-size: 18px;
+}
